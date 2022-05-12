@@ -1,3 +1,23 @@
+.DS_Store
+
+# data file
+*.txt
+*.pkl
+*.zip
+*.csv
+*.epub
+*.label
+*.bpe
+*.tar.gz
+text_transfer/style-transfer-paraphrase/outputs/
+
+# Model file 
+text_transfer/models/
+text_transfer/style-transfer-paraphrase/shakespeare_models/
+text_transfer/style-transfer-paraphrase/paraphraser_gpt2_large
+text_transfer/style-transfer-paraphrase/roberta.large
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
